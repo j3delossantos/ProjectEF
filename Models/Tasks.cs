@@ -14,7 +14,8 @@ public class Tasks
 
     public DateTime CreationDate {get; set;}
 
-    public virtual Category Category {get; set;}
+    public virtual Category Category {get; set;} 
+    
 
 }
 
