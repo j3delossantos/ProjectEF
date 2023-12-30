@@ -1,11 +1,20 @@
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
+
 namespace projectef.models;
 
-public class Tasks
-{
-    public Guid TaskID {get; set;}
 
+public class Task
+{
+    [Key]    
+    public Guid TaskID {get; set;}
+    
+    [ForeignKey("CategoryID")]
     public Guid CategoryID {get; set;}
 
+    [Required]
+    [MaxLength(200)]
     public string Title {get; set;}
 
     public string Desciption {get; set;}
@@ -15,6 +24,11 @@ public class Tasks
     public DateTime CreationDate {get; set;}
 
     public virtual Category Category {get; set;} 
+
+    [NotMapped]
+    public string Summary {get; set;}
+
+
     
 
 }
