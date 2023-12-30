@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\J3D\\Documents\\ProjectEF\\ProjectEF.csproj": {}
+    "C:\\Users\\J3D\\Documents\\ProjectEF\\ProjectEF.csproj": {}
   },
   "projects": {
-    "c:\\Users\\J3D\\Documents\\ProjectEF\\ProjectEF.csproj": {
+    "C:\\Users\\J3D\\Documents\\ProjectEF\\ProjectEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\J3D\\Documents\\ProjectEF\\ProjectEF.csproj",
+        "projectUniqueName": "C:\\Users\\J3D\\Documents\\ProjectEF\\ProjectEF.csproj",
         "projectName": "ProjectEF",
-        "projectPath": "c:\\Users\\J3D\\Documents\\ProjectEF\\ProjectEF.csproj",
+        "projectPath": "C:\\Users\\J3D\\Documents\\ProjectEF\\ProjectEF.csproj",
         "packagesPath": "C:\\Users\\J3D\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\J3D\\Documents\\ProjectEF\\obj\\",
+        "outputPath": "C:\\Users\\J3D\\Documents\\ProjectEF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\J3D\\AppData\\Roaming\\NuGet\\NuGet.Config",
