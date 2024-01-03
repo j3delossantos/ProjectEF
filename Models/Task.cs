@@ -7,17 +7,17 @@ namespace projectef.models;
 
 public class Task
 {
-    [Key]    
+    //[Key]    
     public Guid TaskID {get; set;}
     
-    [ForeignKey("CategoryID")]
+    //[ForeignKey("CategoryID")]
     public Guid CategoryID {get; set;}
 
-    [Required]
-    [MaxLength(200)]
+    //[Required]
+    //[MaxLength(200)]
     public string Title {get; set;}
 
-    public string Desciption {get; set;}
+    public string Description {get; set;}
 
     public  Priority TaskPriority {get; set;}
 
@@ -25,7 +25,7 @@ public class Task
 
     public virtual Category Category {get; set;} 
 
-    [NotMapped]
+    //[NotMapped]
     public string Summary {get; set;}
 
 
