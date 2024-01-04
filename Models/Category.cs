@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
 
 namespace projectef.models;
@@ -16,7 +17,7 @@ public class Category
 
      public int Impact {get; set;}
 
-     
+     [JsonIgnore]    
 
      public ICollection<Task> tasks {get; set;}
 
